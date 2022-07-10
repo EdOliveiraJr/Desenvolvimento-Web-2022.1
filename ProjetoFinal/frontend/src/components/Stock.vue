@@ -3,7 +3,7 @@
         <div class="col">
             <h2>Estoque</h2>
             <hr>
-            <table class="table table-stripped">
+            <table class="table table-stripped" aria-label="table">
                 <thead>
                     <tr>
                         <th>#</th>

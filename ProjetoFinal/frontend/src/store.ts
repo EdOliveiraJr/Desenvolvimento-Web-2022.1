@@ -16,11 +16,11 @@ function getFakeProducts(): Product[]{
     for (let i = 0; i < 4; i++) {
         productsArray.push({
             id: i + 1,
-            name: faker.commerce.productName(),
-            description: faker.commerce.productDescription(),
-            price: Number(faker.commerce.price()),
+            name: "Produto",
+            description: "Descrição",
+            price: Math.floor(Math.random() * 1000),
             discount: 0,
-            quantity: 3,
+            quantity: 0,
             rating: Math.floor(Math.random() * 5)
         });
     }
