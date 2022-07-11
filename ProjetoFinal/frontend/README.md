@@ -1,7 +1,7 @@
-# NOME DO PROJETO
+# Loja D'Sant
 
-Loja D'Sant
-Venda de cestas de presente
+Loja online para venda de cestas de presente  
+
 ## Membros da equipe
 
 Edvaldo Oliveira
@@ -10,16 +10,14 @@ Kaio Portela
 ## Tecnologias e frameworks utilizados
 
 **Frontend:**
+Vue 3 + TypeScript + Vite
 
-Vue.js, Vite,   
 **Backend:**
 
-Não foi concluído
+## Papéis ou tipos de usuÃ¡rio do sistema
 
-## PapÃ©is ou tipos de usuÃ¡rio do sistema
+Adminstrador, Usuário, Usuário nÃo autenticado  
 
-Ex de papÃ©is:
-Adminstrador, Usuário, Usuário nÃo autenticado
 ## Entidades, Tabelas ou Coleções utilizadas
 
 - Nome das tabelas (bancos sql) ou coleções (bancos nosql) utilizadas
@@ -28,14 +26,14 @@ Operações implementadas para cada entidade
 
 | Entidade| Create | Read | Update | Delete |
 | --- | --- | --- | --- | --- |
-| Entidade 1 | X |  X  |  | X |
-| Entidade 2 | X |    |  X | X |
-| Entidade 3 | X |    |  |  |
+| Entidade 1 |  |   |  |  |
+| Entidade 2 |  |   |  |  |
+| Entidade 3 |  |   |  |  |
 
 ## Rotas da API REST utilizadas
 
 
-| MÃ©todo HTTP | URL |
+| Método HTTP | URL |
 | --- | --- |
 | GET | api/entidade1/|
 | POST | api/entidade2 |
