@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import ProductCard from './components/ProductCard.vue';
-import Stock from './components/Stock.vue';
-import StockItem from './components/StockItem.vue';
-import ListProduct from './components/ListProduct.vue';
+import ProductCard from '.../components/ProductCard.vue';
+import ListProduct from '.../components/ListProduct.vue';
+import Stock from '.../components/Stock.vue';
+import StockItem from '.../components/StockItem.vue';
 import { useStore } from 'vuex';
 
 const store = useStore()
@@ -18,7 +18,9 @@ const store = useStore()
                 :price="product.price" 
                 :quantity="product.quantity"
                 :discount="product.discount"
-                :rating="product.rating"></ProductCard>
+                :rating="product.rating"
+                >
+            </ProductCard>
         </ListProduct>
         <Stock>
             <StockItem v-for="product in store.state.products"
@@ -34,6 +36,4 @@ const store = useStore()
         </Stock>
     </div>
 </template>
-
-
 

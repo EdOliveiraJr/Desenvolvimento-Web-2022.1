@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Login from '../views/Login.vue'
 import AdminHome from '../views/admin/Home.vue'
-import AdminEstoque from '../views/admin/Estoque.vue'
+import AdminEstoque from './views/admin/Estoque.vue'
 import Home from '../views/Home.vue'
 import ProductExpandedCard from '../views/ProductDetails.vue'
 import NotFound from '../views/NotFound.vue'

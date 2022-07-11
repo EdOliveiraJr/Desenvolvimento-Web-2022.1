@@ -1,3 +1,47 @@
+# NOME DO PROJETO
+
+Loja D'Sant
+Venda de cestas de presente
+## Membros da equipe
+
+Edvaldo Oliveira
+Kaio Portela
+
+## Tecnologias e frameworks utilizados
+
+**Frontend:**
+
+Vue.js, Vite,   
+**Backend:**
+
+Não foi concluído
+
+## PapÃ©is ou tipos de usuÃ¡rio do sistema
+
+Ex de papÃ©is:
+Adminstrador, Usuário, Usuário nÃo autenticado
+## Entidades, Tabelas ou Coleções utilizadas
+
+- Nome das tabelas (bancos sql) ou coleções (bancos nosql) utilizadas
+
+Operações implementadas para cada entidade
+
+| Entidade| Create | Read | Update | Delete |
+| --- | --- | --- | --- | --- |
+| Entidade 1 | X |  X  |  | X |
+| Entidade 2 | X |    |  X | X |
+| Entidade 3 | X |    |  |  |
+
+## Rotas da API REST utilizadas
+
+
+| MÃ©todo HTTP | URL |
+| --- | --- |
+| GET | api/entidade1/|
+| POST | api/entidade2 |
+
+
+
 # Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
