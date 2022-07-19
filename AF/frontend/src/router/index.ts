@@ -1,0 +1,49 @@
+import { createRouter, createWebHistory } from "vue-router";
+import Home from '../views/Home.vue'
+import HelloWorld from '../components/HelloWorld.vue'
+// import Home from '../views/Home.vue'
+// import Login from '../views/Login.vue'
+// import Profile from '../views/Profile.vue'
+// import Signup from '../views/Signup.vue'
+
+const router =  createRouter({
+    history: createWebHistory(import.meta.env.BASE_URL),
+    routes:[
+        {
+            path:"/",
+            component: Home,
+            children: [
+            ]
+        },
+        {
+            path:"/home",
+            name:"home",
+            component:Home,
+        },
+        {
+            path:"/hello",
+            name:"heloo",
+            component:HelloWorld,
+        },
+        // {
+        //     path:"/profile",
+        //     name:"profile",
+        //     component:Profile,
+        // },
+        // {
+        //     path:"/login",
+        //     name:"login",
+        //     component: Login,
+        // },
+        // {
+        //     path:"/signup",
+        //     name:"signup",
+        //     component: Signup,
+        // }
+        
+    ]
+
+
+})
+
+export default router;
