@@ -1,5 +1,12 @@
+<script setup lang="ts">   
+</script>
+
 <template>
-    <h1>
-        Olá, estamos na HOME!!!
-    </h1>
-</template>   
+    <header class="m-4">
+        <h1>Tô Lendo</h1>
+    </header>
+    <div>
+        <BockCard></BockCard>
+    </div>
+    
+</template> 
