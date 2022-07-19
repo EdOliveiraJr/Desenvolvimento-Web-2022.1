@@ -11,3 +11,4 @@ Lista | Link | Entrega
 03    | https://profbruno-ufc-qx.github.io/web-development/atividades/le03.html | https://github.com/EdOliveiraJr/Desenvolvimento-Web-2022.1/tree/main/Lista03
 04    | https://profbruno-ufc-qx.github.io/web-development/atividades/le04.html | https://github.com/EdOliveiraJr/Desenvolvimento-Web-2022.1/tree/main/Lista04
 05    | https://profbruno-ufc-qx.github.io/web-development/atividades/le05.html | https://github.com/EdOliveiraJr/Desenvolvimento-Web-2022.1/tree/main/Lista05
+05    | https://profbruno-ufc-qx.github.io/web-development/atividades/le06.html | https://github.com/EdOliveiraJr/Desenvolvimento-Web-2022.1/tree/main/Lista06
